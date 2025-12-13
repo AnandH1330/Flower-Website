@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import"App.css";
+
+
+/* BACK TO BLACK FONT */
+@font-face {
+  font-family: "BackToBlack";
+  src: url("/src/assets/Fonts/back_to_black/Back to Black Demo.ttf") format("truetype");
+}
+
+.heading {
+  font-family: "BackToBlack", cursive;
+}
+
+/* PEACHES EN REGALIA FONT */
+@font-face {
+  font-family: "PeachesEnRegalia";
+  src: url("/src/assets/Fonts/peaches_en_regalia/Peaches en Regalia.ttf") format("truetype");
+}
+
+.heading1 {
+  font-family: "PeachesEnRegalia", cursive;
+}
+
+/* KAVIVANAR FONT */
+@font-face {
+  font-family: "Kavivanar";
+  src: url("/src/assets/Fonts/Kavivanar,Playwrite_NL/Kavivanar/Kavivanar-Regular.ttf") 
+       format("truetype");
+}
+
+.heading2 {
+  font-family: "Kavivanar", cursive;
+}
+
+/* PLAYWRITE NETHERLAND FONT */
+@font-face {
+  font-family: "PlaywriteNetherland";
+  src: url("/src/assets/Fonts/Kavivanar,Playwrite_NL/Playwrite_NL/PlaywriteNL-VariableFont_wght.ttf") 
+       format("truetype");
+}
+
+.heading3 {
+  font-family: "PlaywriteNetherland", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}

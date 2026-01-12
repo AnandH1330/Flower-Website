@@ -21,12 +21,6 @@ const InstagramAndVideo = () => {
 
       {/* Right Side — Centered Instagram Section */}
       <div className="w-full lg:w-1/2 py-12 px-6 flex flex-col items-center justify-center text-center space-y-6">
-        {/* <h2 className="text-5xl block font-serif text-pink-400 mt-2">
-          Follow Us on Instagram 🌷
-        </h2>
-        <p className="text-gray-600 max-w-md">
-          Stay updated with our latest floral arrangements, sales, and events!
-        </p> */}
 
         <div className="flex flex-col items-center gap-4">
           <img
@@ -34,14 +28,7 @@ const InstagramAndVideo = () => {
             alt="Instagram QR Code"
             className="w-90 h-110 rounded-lg shadow-md"
           />
-          {/* <a
-            href="https://instagram.com/your_instagram_id"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white bg-pink-600 hover:bg-pink-700 px-6 py-2 rounded-full font-medium shadow-md transition-transform duration-300 hover:scale-105"
-          >
-            Visit Our Instagram
-          </a> */}
+          
         </div>
       </div>
     </section>

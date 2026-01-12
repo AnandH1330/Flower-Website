@@ -160,6 +160,7 @@ const SignIn = () => {
               {/* Google Login */}
               <div className="flex justify-center">
                 <GoogleLogin
+                  clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}
                   onSuccess={handleGoogleLogin}
                   onError={() => setError("Google Login Failed")}
                 />

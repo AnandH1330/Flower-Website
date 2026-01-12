@@ -3,7 +3,7 @@ import { Link, useNavigate, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronDown,
-  faBagShopping,
+  faCartArrowDown,
   faComments,
   faTruck,
   faChartPie,
@@ -187,7 +187,7 @@ export default function Navbar() {
         {/* Right Section */}
         <div className="flex items-center gap-4">
           <Link to="/cart" className="relative text-pink-500">
-            <FontAwesomeIcon icon={faBagShopping} size="xl" />
+            <FontAwesomeIcon icon={faCartArrowDown} size="xl" />
             {totalItems > 0 && (
               <span className="absolute -top-2 -right-3 bg-pink-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 {totalItems}
